@@ -1,0 +1,119 @@
+@font-face {
+	font-family: 'Bellota-LightItalic';
+	src: url('../fonts/Bellota-LightItalic.otf');
+}
+
+@font-face {
+	font-family: 'Bellota-BoldItalic';
+	src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+html, body{
+	height: 100%;
+	min-height: 100%;
+
+}
+
+
+form {
+	text-align: center;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/backgrounds/desktop.jpg);
+	background-size: cover;
+}
+a {
+	text-decoration: none;
+	color: #2980b9;
+
+}
+
+#first {
+	font-family: 'Bellota-LightItalic', sans-serif;
+	position: absolute;
+	margin-right: absolute;
+	margin-left: absolute;
+	top: 0%;
+	left: 25%;
+	transform: translate(25%,25%);
+	width: 35%;
+	height: 350px;
+	background-color: #ffffff;
+	border: 1px solid #EDEDED;
+	border-radius: 20px;
+	padding: 10px;
+	opacity: 0.9;
+
+}
+
+#second {
+	font-family: 'Bellota-LightItalic', sans-serif;
+	position: absolute;
+	margin-right: absolute;
+	margin-left: absolute;
+	top: 0%;
+	left: 25%;
+	transform: translate(25%,7%);
+	width: 35%;
+	height: 530px;
+	background-color: #ffffff;
+	border: 1px solid #EDEDED;
+	border-radius: 20px;
+	padding: 10px;
+	opacity: 0.9;
+
+}
+
+#login_header {
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	height:120px;
+	width:100%;
+	background-color: #000;
+	color: #ffffff;
+	text-align: center;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#login_header h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #2980b9;
+	text-shadow: #fff 0.3px 0.3px 0px;
+	font-size: 250%;
+	
+}
+
+
+input[type="submit"] {
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	background-color: #2980b9;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #2980b9;
+	border-radius: 3px;
+	margin: 10px 0 10px 0;
+	color: #fff;
+	font-size: 100%;
+
+}
+
+input[type="text"] , input[type="email"] , input[type="password"]  {
+	border: 1px solid #c5c5c5;
+	margin-top: 5px;
+	width:70%;
+	height: 35px;
+	padding-left: 5px;
+}
+
+input[type="text"]:hover , input[type="email"]:hover , input[type="password"]:hover  {
+	border-color: #2980b9;
+}	
+
+#second {
+	display: none;
+}
